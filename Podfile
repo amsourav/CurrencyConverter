@@ -6,7 +6,7 @@ target 'CurrencyConverter' do
   # use_frameworks!
 
   # Pods for CurrencyConverter
-
+  pod "CurrencyRequest"
   target 'CurrencyConverterTests' do
     inherit! :search_paths
     # Pods for testing
